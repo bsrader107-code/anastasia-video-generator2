@@ -92,7 +92,8 @@ Ending Beat
 """
 
     response = client.chat.completions.create(
-        model="gpt-4o",
+        model="gpt-4o-mini"
+,
         messages=[
             {"role": "system", "content": "You are a professional cinematographer and movement director."},
             {"role": "system", "content": CHARACTER_BLOCK},
